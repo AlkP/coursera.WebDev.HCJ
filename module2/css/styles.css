@@ -5,6 +5,9 @@
 }
 
 h1 {
+    font-size: 36px;
+    margin-top: 25px;
+    margin-bottom: 15px;
     text-align: center;
 }
 
@@ -20,11 +23,12 @@ h1 {
 .container {
     position: relative;
     width: 100%;
-    padding: 35px 10px 5px 10px;
+    padding: 45px 10px 5px 10px;
     border: 1px solid black;
 }
 
 .section {
+    font-size: 26px;
     position: absolute;
     top: -1px;
     right: -1px;
@@ -36,15 +40,20 @@ h1 {
 }
 
 .first {
-    background-color: #ce44bd;
+    background-color: #e591db;
 }
 
 .second {
-    background-color: #b62e2e;
+    background-color: #dba0a0;
 }
 
 .third {
     background-color: #e8bd62;
+}
+
+.container > p:nth-child(2) {
+    font-size: 16px;
+    text-align: justify;
 }
 
 @media (min-width: 992px) {
