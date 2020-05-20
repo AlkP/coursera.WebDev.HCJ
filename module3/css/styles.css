@@ -1,0 +1,50 @@
+nav {
+  background-color: #818182;
+  border: 3px solid black;
+}
+h1 { color: white }
+h2, h3 { text-align: center }
+.container h2 {
+  margin: 25px auto 25px;
+}
+h3 { margin-top: 5px; }
+.row > div {
+  background-color: #818182;
+  margin-bottom: 25px;
+}
+.row p {
+  text-align: justify;
+}
+li {
+  border-bottom: 2px solid black;
+}
+.p-4 {
+  padding: 0 !important;
+}
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  #navbarToggleExternalContent, .navbar-toggler { display: none; }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #navbarToggleExternalContent, .navbar-toggler { display: none; }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+}
