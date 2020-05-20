@@ -26,17 +26,14 @@ li {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  #navbarToggleExternalContent, .navbar-toggler { display: none; }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  #navbarToggleExternalContent, .navbar-toggler { display: none; }
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  #navbarToggleExternalContent, .navbar-toggler { display: none; }
 }
 
 /********** Extra small devices only **********/
