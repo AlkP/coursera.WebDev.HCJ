@@ -2,8 +2,7 @@ nav {
   background-color: #818182;
   border: 3px solid black;
 }
-h1 { color: white }
-h2, h3 { text-align: center }
+h1 { color: white; text-decoration: none; }
 .container h2 {
   margin: 25px auto 25px;
 }
@@ -37,6 +36,7 @@ li {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+  #navbarToggleExternalContent, .navbar-toggler { display: none; }
 }
 
 /********** Extra small devices only **********/
