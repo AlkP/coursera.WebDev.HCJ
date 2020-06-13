@@ -21,3 +21,9 @@ each module has branch
 |
 [Solution](https://alkp.github.io/coursera.WebDev.HCJ/module4)
 
+## module 5
+
+[Assignment](https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment5/Assignment-5.md)
+|
+[Solution](https://alkp.github.io/coursera.WebDev.HCJ/module5)
+
